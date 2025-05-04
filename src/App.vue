@@ -1,6 +1,13 @@
 <script setup lang="ts">
-import Navbar from './components/Navbar.vue'
-import Footer from './components/Footer.vue'
+import { onMounted } from 'vue';
+import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
+import { useCustomCursor } from './composables/useCustomCursor';
+
+onMounted(() => {
+  const { initCustomCursor } = useCustomCursor();
+  initCustomCursor();
+});
 </script>
 
 <template>
@@ -34,4 +41,6 @@ import Footer from './components/Footer.vue'
 .page-leave-to {
   opacity: 0;
 }
+
+/* Supprimer les styles de curseur précédents qui ne fonctionnaient pas */
 </style>

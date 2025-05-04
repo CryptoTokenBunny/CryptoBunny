@@ -1,0 +1,9 @@
+/* Curseur par défaut pour tout */
+html, body, * {
+  cursor: url('/carrot.png'), auto !important;
+}
+
+/* Curseur pour éléments cliquables */
+a, button, [role="button"], input[type="submit"], input[type="button"], .clickable {
+  cursor: url('/carrot.png'), pointer !important;
+}

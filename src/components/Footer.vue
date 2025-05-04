@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-pepe-dark text-white py-8 mt-16">
+  <footer class="bg-pepe-dark text-white py-8 mt-16" style="cursor: url('/carrot.cur'), auto;">
     <div class="max-w-7xl mx-auto px-4">
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="mb-6 md:mb-0">
