@@ -10,6 +10,9 @@ onMounted(() => {
     isLoaded.value = true
   }, 300)
 })
+
+
+
 </script>
 
 <template>

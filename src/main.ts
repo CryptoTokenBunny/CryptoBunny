@@ -25,6 +25,13 @@ const router = createRouter({
   }
 })
 
-createApp(App)
-  .use(router)
-  .mount('#app')
+
+
+const app = createApp(App)
+  .use(router);
+
+app.config.compilerOptions.isCustomElement = (tag) => {
+    return tag.startsWith('dotlottie-')
+  };
+
+app.mount('#app');
