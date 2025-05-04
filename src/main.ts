@@ -8,6 +8,7 @@ import Home from './pages/Home.vue'
 import About from './pages/About.vue'
 import Tokenomics from './pages/Tokenomics.vue'
 import Roadmap from './pages/Roadmap.vue'
+import Contact from './pages/Contact.vue'
 
 // Create router
 const router = createRouter({
@@ -17,6 +18,7 @@ const router = createRouter({
     { path: '/about', component: About },
     { path: '/tokenomics', component: Tokenomics },
     { path: '/roadmap', component: Roadmap },
+    { path: '/contact', component: Contact },
   ],
   scrollBehavior() {
     return { top: 0 }
