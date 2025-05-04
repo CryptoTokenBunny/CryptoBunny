@@ -4,8 +4,8 @@
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="mb-6 md:mb-0">
           <div class="flex items-center">
-            <img src="/pepe-icon.svg" alt="$PEPE Logo" class="h-8 w-8 mr-2" />
-            <span class="text-xl font-bold">$PEPE</span>
+            <img src="/rabbitIcon.svg" alt="$PEPE Logo" class="h-8 w-8 mr-2" />
+            <span class="text-xl font-bold">RABUCKS</span>
           </div>
           <p class="mt-2 text-sm opacity-70">© 2025 $PEPE. All rights reserved.</p>
         </div>
